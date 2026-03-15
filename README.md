@@ -30,7 +30,7 @@ The project uses a lightweight, highly portable SQLite database. It consists of 
 **1. Clone the repository and navigate to the folder:**
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/williamchen0301-sh/sql-testing
 cd your-repo-name
 
 ```
