@@ -2,17 +2,15 @@
 ##What this app tracks and why
 ###This application tracks software engineering internship postings and uses an AI pipeline to extract specific technical skills from massive job descriptions. I built this to reverse-engineer the hiring market, allowing me to find exactly which skills and technologies are most in-demand so I can strategically build my resume.
 
-#Database Schema
-##The project uses a lightweight, highly portable SQLite database. It consists of a single, flat table designed for fast CRUD operations and easy Pandas integration.
-Column Name	Data Type	Description
-id	INTEGER PRIMARY KEY	Auto-incrementing unique identifier
-company_name	TEXT NOT NULL	Name of the hiring company
-role_title	TEXT NOT NULL	Specific title of the internship
-posting_url	TEXT	Link to the original job posting
-required_skills	TEXT	AI-extracted, comma-separated list of required skills
-preferred_skills	TEXT	Comma-separated list of bonus skills
-degree_reqs	TEXT	Academic requirements (e.g., BS Computer Science)
-date_logged	DATE	Defaults to CURRENT_DATE when a row is created
+Column Name,Data Type,Description
+id,INTEGER PRIMARY KEY,Auto-incrementing unique identifier
+company_name,TEXT NOT NULL,Name of the hiring company
+role_title,TEXT NOT NULL,Specific title of the internship
+posting_url,TEXT,Link to the original job posting
+required_skills,TEXT,"AI-extracted, comma-separated list of required skills"
+preferred_skills,TEXT,Comma-separated list of bonus skills
+degree_reqs,TEXT,"Academic requirements (e.g., BS Computer Science)"
+date_logged,DATE,Defaults to CURRENT_DATE when a row is created
 
 
 
