@@ -1,0 +1,9 @@
+# Ignore the secret keys file
+.env
+
+# Ignore your personal database (you don't want everyone seeing your tracked jobs!)
+internships.db
+
+# Ignore Python cache folders
+__pycache__/
+.pytest_cache/
